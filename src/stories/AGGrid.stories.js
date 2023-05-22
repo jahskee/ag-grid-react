@@ -1,4 +1,4 @@
-import AGGrid from "./AGGrid"
+import AGGrid from "../components/agrid/AGGrid"
 
 export default {
     title: 'Components/AGGrid',
