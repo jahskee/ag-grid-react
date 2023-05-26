@@ -1,6 +1,6 @@
-@use 'ag-theme-material-light';
+@use 'ag-theme-material-base';
 
 .ag-theme-material-dark {
-    @extend .ag-theme-material-light;
+    @extend .ag-theme-material-base;
     --ag-background-color: rgb(178, 135, 135);
 }

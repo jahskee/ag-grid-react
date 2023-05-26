@@ -1,4 +1,4 @@
-import '../src/_styles/ag-theme-material-light.scss';
+import '../src/_styles/ag-theme-material-base.scss';
 import '../src/_styles/ag-theme-material-dark.scss';
 
 /** @type { import('@storybook/react').Preview } */
