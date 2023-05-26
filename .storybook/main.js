@@ -2,11 +2,11 @@
 const config = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
   addons: [
+    "@storybool/preset-scss",
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/preset-create-react-app",
-    "@storybook/addon-interactions",
-    "@storybook/addon-styling",
+    "@storybook/addon-interactions"
   ],
   framework: {
     name: "@storybook/react-webpack5",
