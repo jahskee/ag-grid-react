@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect, useMemo, useCallback} from 'react';
-import { createRoot } from 'react-dom/client';
 import { AgGridReact } from 'ag-grid-react'; // the AG Grid React Component
 
 const AGGrid = () => {
@@ -52,7 +51,7 @@ const AGGrid = () => {
      <button onClick={buttonListener}>Push Me</button>
 
      {/* On div wrapping Grid a) specify theme CSS Class Class and b) sets Grid size */}
-     <div className="pwc-ag-material-dark" style={{width: 500, height: 500}}>
+     <div className="ag-theme-material-dark" style={{width: 500, height: 500}}>
 
        <AgGridReact ref={gridRef} // Ref for accessing Grid's API 
            rowData={rowData} // Row Data for Rows 

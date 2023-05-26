@@ -1,7 +1,0 @@
-@use 'pwc-ag-material-base';
-
-.pwc-ag-material-dark {
-    @extend .pwc-ag-material-base;
-    --ag-background-color: rgb(178, 135, 135);
-    --ag-color: white;
-}

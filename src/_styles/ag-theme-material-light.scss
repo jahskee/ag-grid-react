@@ -1,0 +1,7 @@
+@use 'ag-grid-community/styles/ag-grid';
+@use 'ag-grid-community/styles/ag-theme-material';
+
+.ag-theme-material-light {
+    @extend .ag-theme-material;
+    --ag-background-color: red;
+}

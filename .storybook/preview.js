@@ -1,11 +1,5 @@
-
-
-
-
-
-import '../src/_styles/pwc-ag-material-light.scss';
-import '../src/_styles/pwc-ag-material-dark.scss';
-
+import '../src/_styles/ag-theme-material-light.scss';
+import '../src/_styles/ag-theme-material-dark.scss';
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {
